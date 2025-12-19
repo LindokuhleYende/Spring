@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "title": "Monday Morning Run",
+    "startedOn": "2025-11-25T18:14:42.4333217",
+    "completedOn": "2025-11-25T18:44:42.4333217",
+    "miles": 3,
+    "location": "INDOOR",
+    "duration": "PT30M",
+    "avgPace": 10
+  },
+  {
+    "id": 2,
+    "title": "Wednesday Evening Run",
+    "startedOn": "2025-11-25T18:14:42.435861",
+    "completedOn": "2025-11-25T19:14:42.435861",
+    "miles": 6,
+    "location": "INDOOR",
+    "duration": "PT1H",
+    "avgPace": 10
+  }
+]

@@ -1,0 +1,151 @@
+GET http://localhost:8080/api/runs/11
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-11-25T183939.200.json
+
+###
+
+POST http://localhost:8080/api/runs
+Content-Type: application/json
+Content-Length: 179
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "id": 11,
+  "title": "Saturday Morning Run",
+  "startedOn": "2024-02-10T15:00:12.49766",
+  "completedOn": "2024-02-10T16:01:12.497678",
+  "miles": 6,
+  "location": "OUTDOOR"
+}
+
+###
+
+GET http://localhost:8080/api/runs/2
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-11-25T183927.200.json
+
+###
+
+DELETE http://localhost:8080/api/runs/11
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+###
+
+PUT http://localhost:8080/api/runs/11
+Content-Type: application/json
+Content-Length: 171
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "id": 11,
+  "title": "UPDATED TITLE",
+  "startedOn": "2025-02-10T15:00:12.49766",
+  "completedOn": "2025-02-10T16:01:12.497678",
+  "miles": 6,
+  "location": "INDOOR"
+}
+
+###
+
+POST http://localhost:8080/api/runs
+Content-Type: application/json
+Content-Length: 179
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "id": 11,
+  "title": "Saturday Morning Run",
+  "startedOn": "2024-02-10T15:00:12.49766",
+  "completedOn": "2024-02-10T16:01:12.497678",
+  "miles": 6,
+  "location": "OUTDOOR"
+}
+
+###
+
+GET http://localhost:8080/api/runs
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-11-25T183633.200.json
+
+###
+
+GET http://localhost:8080/api/runs/2
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-11-25T140601.200.json
+
+###
+
+GET http://localhost:8080/api/runs
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-11-25T140550.200.json
+
+###
+
+DELETE http://localhost:8080/api/runs/11
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+###
+
+GET http://localhost:8080/api/runs
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-11-25T140536.200.json
+
+###
+
+POST http://localhost:8080/api/runs
+Content-Type: application/json
+Content-Length: 179
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "id": 11,
+  "title": "Saturday Morning Run",
+  "startedOn": "2024-02-10T15:00:12.49766",
+  "completedOn": "2024-02-10T16:01:12.497678",
+  "miles": 6,
+  "location": "OUTDOOR"
+}
+
+###
+
+GET http://localhost:8080/api/runs
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.3
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-11-25T140425.200.json
+
+###
+
